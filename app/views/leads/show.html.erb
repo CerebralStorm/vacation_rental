@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @lead.address %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @lead.price %>
+</p>
+
+<p>
+  <strong>Number of bedrooms:</strong>
+  <%= @lead.number_of_bedrooms %>
+</p>
+
+<p>
+  <strong>Number of bathrooms:</strong>
+  <%= @lead.number_of_bathrooms %>
+</p>
+
+<p>
+  <strong>Square feet:</strong>
+  <%= @lead.square_feet %>
+</p>
+
+<%= link_to 'Edit', edit_lead_path(@lead) %> |
+<%= link_to 'Back', leads_path %>
